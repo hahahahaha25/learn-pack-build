@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite</title>
+</head>
+
+<body>
+    <h1>Hello Vite!</h1>
+    <!-- 以模块的形式导入index.js -->
+    <!-- <script type="module" src="./index.js"></script> -->
+    <script type="module">
+        import { name, age } from "./index.js"
+        console.log(" outer name:", name);
+        console.log("outer age:", age); 
+    </script>
+</body>
+
+</html>
